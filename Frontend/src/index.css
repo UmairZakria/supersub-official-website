@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* src/styles/global.css */
+#nprogress .bar {
+  background: rgb(0, 174, 255);
+  /* Change the color to red */
+  height: 4px;
+  /* Change the height */
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px white, 0 0 5px white;
+  /* Change the peg glow color */
+}
+
+
+@font-face {
+  font-family: 'Brittany';
+  src: url('./assets/fonts/Brittany.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

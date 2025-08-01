@@ -26,8 +26,8 @@ app.use(cors({
 app.use(express.json(
 
 ))
-mongoose.connect('mongodb+srv://supersubsofficial:XbFH3oNaURral1hG@supersub.2odym.mongodb.net/?retryWrites=true&w=majority&appName=supersub')
-// mongoose.connect('mongodb://localhost:27017/client1')
+
+mongoose.connect('mongodb://localhost:27017/client1')
 
 
 
@@ -329,5 +329,6 @@ app.post('/adminconnection', async (req, res) => {
 
 app.listen(5000, () => {
     console.log("server is running")
+
 
 })
